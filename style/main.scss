@@ -1,0 +1,160 @@
+@import url('../vendor/bootstrap/scss/bootstrap.css');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,800;1,400&display=swap');
+
+$base-color: #ffffff;
+$medium : #271d03;
+$base:#f8ff904b;
+$yellow : #ffed4e;
+
+
+.highlight{
+    color: #c5c222;
+    background-color: #f3f5ec;
+    font-family: 'inconsolata', sans-serif;
+}
+.badge{
+    font-family: 'Inconsolata', sans-serif;
+    color: rgb(211, 155, 0);
+}
+
+.badge-primary{
+    background-color: #f3e3b8;
+}
+
+.badge-pink{
+    background-color: rgba(252, 229, 233, 0.733);
+}
+
+.badge-green{
+    background-color: rgb(237, 255, 214);
+}
+
+.badge-grey{
+    background-color: rgba(186, 217, 221, 0.308);
+}
+.btn-go{
+    background-color: #faec6c;
+    color: rgba(58, 55, 17, 0.692);
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    box-shadow: 5px 5px 5px rgba(219, 208, 102, 0.6);
+}
+
+.btn-go:hover{
+    background-color: #faec6c8c;
+    color: $medium;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: $base-color;
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: $base-color;
+    .nav-brand{
+        padding: 0;
+        p{
+            margin: 0;
+            font-weight: 800;
+            color: $medium;
+            font-size: 20px;
+        }
+    }
+    
+    .nav-item{
+        a{
+            font-weight: 200;
+            color: black;
+
+        }
+        a:hover{
+            color: $medium;
+        }
+        
+        
+    }
+}
+
+#me{
+    margin-top:100px;
+        .landing-right{
+            h3{
+                font-size: 40px;
+                font-weight: 200;
+                
+            }
+            h1{
+                font-size: 70px;
+                font-weight: 600;
+                span{
+                    background-color: $yellow;
+                }
+            }
+            p{
+                letter-spacing: px;
+                font-size: 16px;
+                font-weight:500;
+            }
+        }
+    }
+
+
+#meet{
+    margin-top: 50px;
+    h1{
+        font-size: 60px;
+        font-weight: 550;
+        span{
+            color: $yellow;
+        }
+    }
+    a{
+        color: black;
+        border-color: $yellow;
+    }
+    a:hover{
+        background-color: $yellow;
+    }
+}
+#work{
+    margin-top: 60px;
+        h1{
+            font-size: 65px;
+            font-weight: 550;
+            span{
+                color: $yellow;
+            }
+            
+        }
+
+        .card{
+            background-color: $base;
+            border: none;
+            border-radius: 30px;
+            box-shadow: 5px 10px 10px rgba(240, 229, 133, 0.6);
+            .card-img-top{
+                padding: 25px;
+                img{
+                    border-radius: 10px;
+                }
+            }
+            .card-body{
+                padding-top: 0px;
+                h5{
+                    font-weight: 700;
+                }
+                .btn{
+                    font-size: 12px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
